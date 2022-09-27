@@ -806,7 +806,7 @@ let kanjiList = [
 ]
 let kanjiForm = jQuery('#kanjiForm');
 
-for (let i = 0; kanjiList.length; i++) {
+for (let i = 0; i <= kanjiList.length; i++) {
   jQuery('#kanjiForm').append('<div><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label><input type="text" id="kanji' + (i+1).toString() + '"></div>');
 }
 jQuery('#kanjiForm').append('<p><input type="submit" value="Send" name="Submit"><input type="reset" value="Reset" name="Reset"></p>');
