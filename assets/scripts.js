@@ -817,7 +817,7 @@ jQuery(document).ready(function() {
         k.style.borderColor = "#3b8136";
       } else {
         k.style.borderColor = "#ad2c2c";
-        k.value.append('<p class="kanjiReading">' + kanjiList[i].reading + '</p>');
+        k.append('<p class="kanjiReading">' + kanjiList[i].reading + '</p>');
       }
     }
   });
