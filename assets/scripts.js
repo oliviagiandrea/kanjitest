@@ -804,9 +804,9 @@ jQuery(document).ready(function() {
   let kanjiForm = jQuery('#kanjiForm');
   
   for (let i = 0; i < kanjiList.length; i++) {
-    kanjiForm.append('<div id="kanjiWrapper' + i.toString() + '"><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label><input type="text" name="kanji" id="kanji' + (i+1).toString() + '"></div>');
+    kanjiForm.append('<div class="formWrapper" id="kanjiWrapper' + i.toString() + '"><div class="col leftCol"><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label></div><div class="col midCol"><input type="text" name="kanji" id="kanji' + (i+1).toString() + '"></div><div class="col rightCol" id="kanjiReading' + (i+1).toString() + '"></div></div>');
   }
-  kanjiForm.append('<p><input type="reset" value="Reset" name="Reset"><input type="submit" value="Submit" id="submit" name="Submit"></p>');  
+  kanjiForm.append('<div class="formWrapper"><input type="reset" value="Reset" name="Reset"><input type="submit" value="Submit" id="submit" name="Submit"></div>');  
 
   jQuery('#submit').click(function(event) {
     event.preventDefault();
@@ -817,8 +817,8 @@ jQuery(document).ready(function() {
         k.style.borderColor = "#3b8136";
       } else {
         k.style.borderColor = "#ad2c2c";
-        k.style.backgroundColor = "#e59c9c";
-        jQuery('#kanjiWrapper' + i.toString()).append('<p class="kanjiReading">' + kanjiList[i].reading + '</p>');
+        k.style.backgroundColor = "#f6bdbd";
+        jQuery('#kanjiReading' + (i+1).toString()).append(kanjiList[i].reading);
       }
     }
   });
