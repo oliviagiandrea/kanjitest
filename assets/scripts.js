@@ -1,6 +1,4 @@
-// function checkAnswers() 
-// { 
-// }
+
 
 let kanjiList = [
   {
@@ -807,8 +805,20 @@ let kanjiList = [
 let kanjiForm = jQuery('#kanjiForm');
 
 for (let i = 0; i < kanjiList.length; i++) {
-  jQuery('#kanjiForm').append('<div><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label><input type="text" id="kanji' + (i+1).toString() + '"></div>');
+  jQuery('#kanjiForm').append('<div><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label><input type="text" name="kanji" id="kanji' + (i+1).toString() + '"></div>');
 }
 jQuery('#kanjiForm').append('<p><input type="submit" value="Send" name="Submit"><input type="reset" value="Reset" name="Reset"></p>');
 
-// console.log(kanjiList);
+function checkAnswers() 
+{ 
+  const kanjis = document.getElementsByName("kanji"); 
+  for (let i = 0; i < kanjiList.length; i++) {
+    let k = kanjis[i];
+    if (k.value == kanjiList[i].reading) {
+      k.style.outlineColor = "#3b8136";
+    } else {
+      k.style.outlineColor = "#ad2c2c";
+      k.value.append("&nbsp;&nbsp;" + kanjiList[i].reading);
+    }
+  }
+}
