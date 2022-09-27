@@ -804,11 +804,11 @@ let kanjiList = [
     reading: "",
   },
 ]
-let kanjiForm = document.getElementById('kanjiForm');
+let kanjiForm = jQuery('#kanjiForm');
 
 for (var i in kanjiList.length) {
-  kanjiForm.appendChild('<div><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label><input type="text" id="kanji' + (i+1).toString() + '"></div>');
+  jQuery('#kanjiForm').append('<div><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label><input type="text" id="kanji' + (i+1).toString() + '"></div>');
 }
-kanjiForm.appendChild('<p><input type="submit" value="Send" name="Submit"><input type="reset" value="Reset" name="Reset"></p>');
+jQuery('#kanjiForm').append('<p><input type="submit" value="Send" name="Submit"><input type="reset" value="Reset" name="Reset"></p>');
 
 // console.log(kanjiList);
