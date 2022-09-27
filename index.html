@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+		<meta name="description" content="An online quiz to self-check how many kanji you can read.">
+		<meta name="keywords" content="kanji, self-assessment, assessment, jlpt, jlpt kanji">
+
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/img/logo.png">
+
+		<title>Kanji Level Check</title>
+	</head>
+	<body>
+    <h1>Kanji Level Check</h1>
+    <p>いくつぐらい漢字がわかりますか。</p>
+    <p>
+      An online self-assessment to check the number of 漢字 that you can read. Based on the test from 
+      <a href="https://www.mlcjapanese.co.jp/level_check_kanji.html" target="_blank">Meguro Language Center</a>,
+      but with added form validation. (Meaning, your answers will be checked and graded upon form submission.)
+      <br/>
+      If you don't know a reading, just leave the form blank.
+    </p>
+		
+    <form name="kanjiForm" id="kanjiForm" onsubmit="return checkAnswers()" method="post">
+
+    </form>
+
+		<script src="assets/scripts.js"></script>
+	</body>
+</html>
