@@ -815,9 +815,9 @@ function checkAnswers()
   for (let i = 0; i < kanjiList.length; i++) {
     let k = kanjis[i];
     if (k.value == kanjiList[i].reading) {
-      k.style.outlineColor = "#3b8136";
+      k.style.borderColor = "#3b8136";
     } else {
-      k.style.outlineColor = "#ad2c2c";
+      k.style.borderColor = "#ad2c2c";
       k.value.append("&nbsp;&nbsp;" + kanjiList[i].reading);
     }
   }
