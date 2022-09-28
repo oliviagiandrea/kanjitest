@@ -594,11 +594,11 @@ jQuery(document).ready(function() {
     },
     {
       kanji: "恐怖",
-      reading: "",
+      reading: "きょうふ",
     },
     {
       kanji: "偽物",
-      reading: "きょうふ",
+      reading: "にせもの",
     },
     {
       kanji: "濁る",
@@ -804,21 +804,29 @@ jQuery(document).ready(function() {
   let kanjiForm = jQuery('#kanjiForm');
   
   for (let i = 0; i < kanjiList.length; i++) {
+    // add each kanji in our 'master list' to form
     kanjiForm.append('<div class="formWrapper" id="kanjiWrapper' + i.toString() + '"><div class="col leftCol"><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label></div><div class="col midCol"><input type="text" name="kanji" id="kanji' + (i+1).toString() + '"></div><div class="col rightCol" id="kanjiReading' + (i+1).toString() + '"></div></div>');
   }
   kanjiForm.append('<div class="formWrapper"><input type="reset" value="Reset" name="Reset"><input type="submit" value="Submit" id="submit" name="Submit"></div>');  
 
+  // when form is submitted
   jQuery('#submit').click(function(event) {
+    // prevent page from reloading and clearing all answers
     event.preventDefault();
     const kanjis = document.getElementsByName("kanji"); 
+    // iterate over each kanji form input
     for (let i = 0; i < kanjiList.length; i++) {
       let k = kanjis[i];
+      // if reading is correct, outline in green
       if (k.value == kanjiList[i].reading) {
         k.style.borderColor = "#3b8136";
+        jQuery('#kanjiReading' + (i+1).toString()).css('display', 'inline-block');
+      // if reading is incorrect, highlight in red and display correct reading after text input
       } else {
         k.style.borderColor = "#ad2c2c";
         k.style.backgroundColor = "#f6bdbd";
         jQuery('#kanjiReading' + (i+1).toString()).append(kanjiList[i].reading);
+        jQuery('#kanjiReading' + (i+1).toString()).css('display', 'inline-block');
       }
     }
   });

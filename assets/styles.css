@@ -17,10 +17,11 @@ p {
 
 .leftCol {
   margin-right: 1rem;
-  width: 4rem;
+  width: 5rem;
 }
 
 .rightCol {
   margin-left: 1rem;
   width: 9rem;
+  display: none;
 }
