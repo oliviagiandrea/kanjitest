@@ -16,15 +16,11 @@ p {
 }
 
 .leftCol {
-  justify-content: right;
   margin-right: 1rem;
-}
-
-.midCol {
-  justify-content: center;
+  width: 4rem;
 }
 
 .rightCol {
-  justify-content: left;
   margin-left: 1rem;
+  width: 9rem;
 }

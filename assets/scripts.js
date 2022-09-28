@@ -6,591 +6,591 @@ jQuery(document).ready(function() {
     },
     {
       kanji: "会社",
-      reading: "",
+      reading: "かいしゃ",
     },
     {
       kanji: "行く",
-      reading: "",
+      reading: "いく",
     },
     {
       kanji: "安い",
-      reading: "",
+      reading: "やすい",
     },
     {
       kanji: "電車",
-      reading: "",
+      reading: "でんしゃ",
     },
     {
       kanji: "古い",
-      reading: "",
+      reading: "ふるい",
     },
     {
       kanji: "駅",
-      reading: "",
+      reading: "えき",
     },
     {
       kanji: "先週",
-      reading: "",
+      reading: "せんしゅう",
     },
     {
       kanji: "会う",
-      reading: "",
+      reading: "あう",
     },
     {
       kanji: "生活",
-      reading: "",
+      reading: "せいかつ",
     },
     {
       kanji: "川",
-      reading: "",
+      reading: "かわ",
     },
     {
       kanji: "多い",
-      reading: "",
+      reading: "おおい",
     },
     {
       kanji: "明るい",
-      reading: "",
+      reading: "あかるい",
     },
     {
       kanji: "食事",
-      reading: "",
+      reading: "しょくじ",
     },
     {
       kanji: "飲む",
-      reading: "",
+      reading: "のむ",
     },
     {
       kanji: "毎日",
-      reading: "",
+      reading: "まいにち",
     },
     {
       kanji: "読む",
-      reading: "",
+      reading: "よむ",
     },
     {
       kanji: "悪い",
-      reading: "",
+      reading: "わるい",
     },
     {
       kanji: "入る",
-      reading: "",
+      reading: "はいる",
     },
     {
       kanji: "始める",
-      reading: "",
+      reading: "はじめる",
     },
     {
       kanji: "歌う",
-      reading: "",
+      reading: "うたう",
     },
     {
       kanji: "病院",
-      reading: "",
+      reading: "びょうき",
     },
     {
       kanji: "思う",
-      reading: "",
+      reading: "おもう",
     },
     {
       kanji: "料理",
-      reading: "",
+      reading: "りょうり",
     },
     {
       kanji: "親切",
-      reading: "",
+      reading: "しんせつ",
     },
     {
       kanji: "出発",
-      reading: "",
+      reading: "しゅっぱつ",
     },
     {
       kanji: "注意",
-      reading: "",
+      reading: "ちゅうい",
     },
     {
       kanji: "仕事",
-      reading: "",
+      reading: "しごと",
     },
     {
       kanji: "映画",
-      reading: "",
+      reading: "えいが",
     },
     {
       kanji: "質問",
-      reading: "",
+      reading: "しつもん",
     },
     {
       kanji: "楽しい",
-      reading: "",
+      reading: "たのしい",
     },
     {
       kanji: "楽な",
-      reading: "",
+      reading: "らくな",
     },
     {
       kanji: "家族",
-      reading: "",
+      reading: "かぞく",
     },
     {
       kanji: "味",
-      reading: "",
+      reading: "あじ",
     },
     {
       kanji: "工場",
-      reading: "",
+      reading: "こうじょう",
     },
     {
       kanji: "図書館",
-      reading: "",
+      reading: "としょかん",
     },
     {
       kanji: "同じ",
-      reading: "",
+      reading: "おんなじ",
     },
     {
       kanji: "間違い",
-      reading: "",
+      reading: "まちがい",
     },
     {
       kanji: "賛成",
-      reading: "",
+      reading: "さんせい",
     },
     {
       kanji: "簡単",
-      reading: "",
+      reading: "かんたん",
     },
     {
       kanji: "正しい",
-      reading: "",
+      reading: "ただしい",
     },
     {
       kanji: "海",
-      reading: "",
+      reading: "うみ",
     },
     {
       kanji: "必ず",
-      reading: "",
+      reading: "かならず",
     },
     {
       kanji: "必要",
-      reading: "",
+      reading: "ひつよう",
     },
     {
       kanji: "原因",
-      reading: "",
+      reading: "げんいん",
     },
     {
       kanji: "普通",
-      reading: "",
+      reading: "ふつう",
     },
     {
       kanji: "感じる",
-      reading: "",
+      reading: "かんじる",
     },
     {
       kanji: "最初",
-      reading: "",
+      reading: "さいしょ",
     },
     {
       kanji: "関係",
-      reading: "",
+      reading: "かんけい",
     },
     {
       kanji: "警察",
-      reading: "",
+      reading: "けいさつ",
     },
     {
       kanji: "漢字",
-      reading: "",
+      reading: "かんじ",
     },
     {
       kanji: "比較",
-      reading: "",
+      reading: "ひかく",
     },
     {
       kanji: "経済",
-      reading: "",
+      reading: "けいざい",
     },
     {
       kanji: "就職",
-      reading: "",
+      reading: "しゅうしょく",
     },
     {
       kanji: "勧める",
-      reading: "",
+      reading: "すすめる",
     },
     {
       kanji: "通勤する",
-      reading: "",
+      reading: "つうきんする",
     },
     {
       kanji: "政治",
-      reading: "",
+      reading: "せいじ",
     },
     {
       kanji: "欧州",
-      reading: "",
+      reading: "おうしゅう",
     },
     {
       kanji: "望む",
-      reading: "",
+      reading: "のぞむ",
     },
     {
       kanji: "要望",
-      reading: "",
+      reading: "ようぼう",
     },
     {
       kanji: "階段",
-      reading: "",
+      reading: "かいだん",
     },
     {
       kanji: "準備",
-      reading: "",
+      reading: "じゅんび",
     },
     {
       kanji: "休暇",
-      reading: "",
+      reading: "きゅうか",
     },
     {
       kanji: "豊かな",
-      reading: "",
+      reading: "ゆたかな",
     },
     {
       kanji: "豊富",
-      reading: "",
+      reading: "ほうふ",
     },
     {
       kanji: "興味",
-      reading: "",
+      reading: "きょうみ",
     },
     {
       kanji: "責任",
-      reading: "",
+      reading: "せきにん",
     },
     {
       kanji: "得意",
-      reading: "",
+      reading: "とくい",
     },
     {
       kanji: "習慣",
-      reading: "",
+      reading: "しゅうかん",
     },
     {
       kanji: "認める",
-      reading: "",
+      reading: "みとめる",
     },
     {
       kanji: "危険",
-      reading: "",
+      reading: "きけん",
     },
     {
       kanji: "日常生活",
-      reading: "",
+      reading: "にちじょうせいかつ",
     },
     {
       kanji: "心配",
-      reading: "",
+      reading: "しんぱい",
     },
     {
       kanji: "配る",
-      reading: "",
+      reading: "くばる",
     },
     {
       kanji: "酔う",
-      reading: "",
+      reading: "よう",
     },
     {
       kanji: "絶対に",
-      reading: "",
+      reading: "ぜったいに",
     },
     {
       kanji: "条件",
-      reading: "",
+      reading: "じょうけん",
     },
     {
       kanji: "危ない",
-      reading: "",
+      reading: "あぶない",
     },
     {
       kanji: "騒ぐ",
-      reading: "",
+      reading: "さわぐ",
     },
     {
       kanji: "騒音",
-      reading: "",
+      reading: "そうおん",
     },
     {
       kanji: "確かめる",
-      reading: "",
+      reading: "たしかめる",
     },
     {
       kanji: "正確な",
-      reading: "",
+      reading: "せいかくな",
     },
     {
       kanji: "規則",
-      reading: "",
+      reading: "きそく",
     },
     {
       kanji: "情報",
-      reading: "",
+      reading: "じょうほう",
     },
     {
       kanji: "励ます",
-      reading: "",
+      reading: "はげます",
     },
     {
       kanji: "努力",
-      reading: "",
+      reading: "とりょく",
     },
     {
       kanji: "混ぜる",
-      reading: "",
+      reading: "まぜる",
     },
     {
       kanji: "混乱",
-      reading: "",
+      reading: "こんらん",
     },
     {
       kanji: "地震",
-      reading: "",
+      reading: "じしん",
     },
     {
       kanji: "貧富",
-      reading: "",
+      reading: "ひんぷ",
     },
     {
       kanji: "継続",
-      reading: "",
+      reading: "けいぞく",
     },
     {
       kanji: "繰り返す",
-      reading: "",
+      reading: "くりかえす",
     },
     {
       kanji: "眠い",
-      reading: "",
+      reading: "ねむい",
     },
     {
       kanji: "監督",
-      reading: "",
+      reading: "かんとく",
     },
     {
       kanji: "犠牲者",
-      reading: "",
+      reading: "ぎせいしゃ",
     },
     {
       kanji: "想像",
-      reading: "",
+      reading: "そうぞう",
     },
     {
       kanji: "免許",
-      reading: "",
+      reading: "めんきょ",
     },
     {
       kanji: "誤る",
-      reading: "",
+      reading: "あやまる",
     },
     {
       kanji: "誤解",
-      reading: "",
+      reading: "ごかい",
     },
     {
       kanji: "迫力",
-      reading: "",
+      reading: "はくりょく",
     },
     {
       kanji: "雰囲気",
-      reading: "",
+      reading: "ふんいき",
     },
     {
       kanji: "距離",
-      reading: "",
+      reading: "きょり",
     },
     {
       kanji: "影響",
-      reading: "",
+      reading: "えいきょう",
     },
     {
       kanji: "競う",
-      reading: "",
+      reading: "きそう",
     },
     {
       kanji: "競争",
-      reading: "",
+      reading: "きょうそう",
     },
     {
       kanji: "故障",
-      reading: "",
+      reading: "こしょう",
     },
     {
       kanji: "暴力",
-      reading: "",
+      reading: "ぼうりょく",
     },
     {
       kanji: "爆発",
-      reading: "",
+      reading: "ばくはつ",
     },
     {
       kanji: "批判する",
-      reading: "",
+      reading: "ひはんする",
     },
     {
       kanji: "範囲",
-      reading: "",
+      reading: "はんい",
     },
     {
       kanji: "緊張",
-      reading: "",
+      reading: "きんちょう",
     },
     {
       kanji: "悩む",
-      reading: "",
+      reading: "なやむ",
     },
     {
       kanji: "突然",
-      reading: "",
+      reading: "とつぜん",
     },
     {
       kanji: "食欲",
-      reading: "",
+      reading: "しょくよく",
     },
     {
       kanji: "被害者",
-      reading: "",
+      reading: "ひがいしゃ",
     },
     {
       kanji: "勇気",
-      reading: "",
+      reading: "ゆうき",
     },
     {
       kanji: "傾向",
-      reading: "",
+      reading: "けいこう",
     },
     {
       kanji: "傾く",
-      reading: "",
+      reading: "かたむく",
     },
     {
       kanji: "厳しい",
-      reading: "",
+      reading: "きびしい",
     },
     {
       kanji: "選挙",
-      reading: "",
+      reading: "せんきょ",
     },
     {
       kanji: "戻る",
-      reading: "",
+      reading: "もどる",
     },
     {
       kanji: "証拠",
-      reading: "",
+      reading: "しょうこ",
     },
     {
       kanji: "後悔",
-      reading: "",
+      reading: "こうかい",
     },
     {
       kanji: "穏やか",
-      reading: "",
+      reading: "おだやか",
     },
     {
       kanji: "偶然",
-      reading: "",
+      reading: "ぐうぜん",
     },
     {
       kanji: "握る",
-      reading: "",
+      reading: "にぎる",
     },
     {
       kanji: "撮る",
-      reading: "",
+      reading: "とる",
     },
     {
       kanji: "撮影",
-      reading: "",
+      reading: "さつえい",
     },
     {
       kanji: "援助",
-      reading: "",
+      reading: "えんじょ",
     },
     {
       kanji: "臭い",
-      reading: "",
+      reading: "くさい",
     },
     {
       kanji: "柔軟な",
-      reading: "",
+      reading: "じゅうなんな",
     },
     {
       kanji: "活躍",
-      reading: "",
+      reading: "かつやく",
     },
     {
       kanji: "妥協",
-      reading: "",
+      reading: "だきょう",
     },
     {
       kanji: "飢餓",
-      reading: "",
+      reading: "きが",
     },
     {
       kanji: "膨らむ",
-      reading: "",
+      reading: "ふくらむ",
     },
     {
       kanji: "膨張",
-      reading: "",
+      reading: "ぼうちょう",
     },
     {
       kanji: "珍しい",
-      reading: "",
+      reading: "めずらしい",
     },
     {
       kanji: "癖",
-      reading: "",
+      reading: "くせ",
     },
     {
       kanji: "恥ずかしい",
-      reading: "",
+      reading: "はずかしい",
     },
     {
       kanji: "遠慮",
-      reading: "",
+      reading: "えんりょ",
     },
     {
       kanji: "渋滞",
-      reading: "",
+      reading: "じゅうたい",
     },
     {
       kanji: "興奮",
-      reading: "",
+      reading: "こうふん",
     },
     {
       kanji: "魅力",
-      reading: "",
+      reading: "みりょく",
     },
     {
       kanji: "悲惨",
-      reading: "",
+      reading: "ひさん",
     },
     {
       kanji: "把握",
-      reading: "",
+      reading: "はあく",
     },
     {
       kanji: "操作",
-      reading: "",
+      reading: "そうさ",
     },
     {
       kanji: "捜査",
-      reading: "",
+      reading: "そうさ",
     },
     {
       kanji: "怖い",
-      reading: "",
+      reading: "こわい",
     },
     {
       kanji: "恐怖",
@@ -598,207 +598,207 @@ jQuery(document).ready(function() {
     },
     {
       kanji: "偽物",
-      reading: "",
+      reading: "きょうふ",
     },
     {
       kanji: "濁る",
-      reading: "",
+      reading: "にごる",
     },
     {
       kanji: "狂う",
-      reading: "",
+      reading: "くるう",
     },
     {
       kanji: "素朴",
-      reading: "",
+      reading: "そぼく",
     },
     {
       kanji: "絞る",
-      reading: "",
+      reading: "しぼる",
     },
     {
       kanji: "縛る",
-      reading: "",
+      reading: "しばる",
     },
     {
       kanji: "束縛",
-      reading: "",
+      reading: "そくばく",
     },
     {
       kanji: "粗大ゴミ",
-      reading: "",
+      reading: "そだいごみ",
     },
     {
       kanji: "空欄",
-      reading: "",
+      reading: "くうらん",
     },
     {
       kanji: "残酷",
-      reading: "",
+      reading: "ざんこく",
     },
     {
       kanji: "阻止",
-      reading: "",
+      reading: "そし",
     },
     {
       kanji: "錯覚",
-      reading: "",
+      reading: "さっかく",
     },
     {
       kanji: "無駄",
-      reading: "",
+      reading: "むだ",
     },
     {
       kanji: "耐用年数",
-      reading: "",
+      reading: "たいようねんすう",
     },
     {
       kanji: "勧誘",
-      reading: "",
+      reading: "かんゆう",
     },
     {
       kanji: "誘う",
-      reading: "",
+      reading: "さそう",
     },
     {
       kanji: "飽きる",
-      reading: "",
+      reading: "あきる",
     },
     {
       kanji: "放棄",
-      reading: "",
+      reading: "ほうき",
     },
     {
       kanji: "崩す",
-      reading: "",
+      reading: "くずす",
     },
     {
       kanji: "崩壊",
-      reading: "",
+      reading: "ほうかい",
     },
     {
       kanji: "怠け者",
-      reading: "",
+      reading: "なまけもの",
     },
     {
       kanji: "愚かな",
-      reading: "",
+      reading: "おろかな",
     },
     {
       kanji: "一貫性",
-      reading: "",
+      reading: "いっかんせい",
     },
     {
       kanji: "腐る",
-      reading: "",
+      reading: "くさる",
     },
     {
       kanji: "醜い",
-      reading: "",
+      reading: "みにくい",
     },
     {
       kanji: "遭難",
-      reading: "",
+      reading: "そうなん",
     },
     {
       kanji: "卑劣な",
-      reading: "",
+      reading: "ひれつな",
     },
     {
       kanji: "一斉に",
-      reading: "",
+      reading: "いっせいに",
     },
     {
       kanji: "屈辱",
-      reading: "",
+      reading: "くつじょく",
     },
     {
       kanji: "揺れる",
-      reading: "",
+      reading: "ゆれる",
     },
     {
       kanji: "動揺",
-      reading: "",
+      reading: "どうよう",
     },
     {
       kanji: "敏感",
-      reading: "",
+      reading: "びんかん",
     },
     {
       kanji: "自由奔放",
-      reading: "",
+      reading: "じゆうほんぽう",
     },
     {
       kanji: "疎遠",
-      reading: "",
+      reading: "そえん",
     },
     {
       kanji: "海藻",
-      reading: "",
+      reading: "かいそう",
     },
     {
       kanji: "捕虜",
-      reading: "",
+      reading: "ほりょ",
     },
     {
       kanji: "奴隷",
-      reading: "",
+      reading: "どれい",
     },
     {
       kanji: "ご覧の～",
-      reading: "",
+      reading: "ごらんの～",
     },
     {
       kanji: "幻想",
-      reading: "",
+      reading: "げんそう",
     },
     {
       kanji: "衰える",
-      reading: "",
+      reading: "おとろえる",
     },
     {
       kanji: "衰退",
-      reading: "",
+      reading: "すいたい",
     },
     {
       kanji: "吟味",
-      reading: "",
+      reading: "ぎんみ",
     },
     {
       kanji: "甲乙",
-      reading: "",
+      reading: "こうおつ",
     },
     {
       kanji: "坪数",
-      reading: "",
+      reading: "つぼすう",
     },
     {
       kanji: "但し",
-      reading: "",
+      reading: "ただし",
     },
     {
       kanji: "且つ",
-      reading: "",
+      reading: "かつ",
     },
     {
       kanji: "膨張剤",
-      reading: "",
+      reading: "ぼうちょうさい",
     },
     {
       kanji: "褒める",
-      reading: "",
+      reading: "ほめる",
     },
     {
       kanji: "戯れる",
-      reading: "",
+      reading: "たわむれる",
     },
     {
       kanji: "威嚇",
-      reading: "",
+      reading: "いかく",
     },
     {
       kanji: "謄本",
-      reading: "",
+      reading: "とうほん",
     },
   ]
   let kanjiForm = jQuery('#kanjiForm');
