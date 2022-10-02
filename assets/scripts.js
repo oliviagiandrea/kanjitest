@@ -807,13 +807,14 @@ jQuery(document).ready(function() {
     // add each kanji in our 'master list' to form
     kanjiForm.append('<div class="formWrapper" id="kanjiWrapper' + i.toString() + '"><div class="col leftCol"><label for="kanji' + (i+1).toString() + '" class="sr-only">' + kanjiList[i].kanji + '</label></div><div class="col midCol"><input type="text" name="kanji" id="kanji' + (i+1).toString() + '"></div><div class="col rightCol" id="kanjiReading' + (i+1).toString() + '"></div></div>');
   }
-  kanjiForm.append('<div class="formWrapper"><input type="reset" value="Reset" name="Reset"><input type="submit" value="Submit" id="submit" name="Submit"></div>');  
+  kanjiForm.append('<div class="formWrapper btnRow"><input type="reset" value="Reset" name="Reset"><input type="submit" value="Submit" id="submit" name="Submit"></div>');  
 
   // when form is submitted
   jQuery('#submit').click(function(event) {
     // prevent page from reloading and clearing all answers
     event.preventDefault();
     const kanjis = document.getElementsByName("kanji"); 
+    let numCorrectKanjis = 0;
     // iterate over each kanji form input
     for (let i = 0; i < kanjiList.length; i++) {
       let k = kanjis[i];
@@ -821,6 +822,7 @@ jQuery(document).ready(function() {
       if (k.value == kanjiList[i].reading) {
         k.style.borderColor = "#3b8136";
         jQuery('#kanjiReading' + (i+1).toString()).css('display', 'inline-block');
+        numCorrectKanjis += 1;
       // if reading is incorrect, highlight in red and display correct reading after text input
       } else {
         k.style.borderColor = "#ad2c2c";
@@ -829,5 +831,47 @@ jQuery(document).ready(function() {
         jQuery('#kanjiReading' + (i+1).toString()).css('display', 'inline-block');
       }
     }
+    // return message containing number of correct kanjis to user
+    kanjiReport(numCorrectKanjis);
   });
 });
+
+function kanjiReport(numKanji) {
+	var msg = "";
+
+	if (numKanji <= 0) {
+		msg = "Kanji no benkyou o hajimemashou!";
+	} else if (numKanji < 21) {
+    let range = 10 * numKanji;
+    msg = "About " + range + " kanji characters";
+  } else if (numKanji < 60) {
+    let bottomRange = numKanji - 10;
+    let topRange = numKanji + 10;
+    msg = "About " + bottomRange + "-" + topRange + " kanji characters";
+  } else if (numKanji < 100) {
+    let bottomRange = numKanji - 20;
+    let topRange = numKanji + 20;
+    msg = "About " + bottomRange + "-" + topRange + " kanji characters";
+  } else if (numKanji >= 100 && k <= 110) {
+		msg = "About 1000-1100 kanji characters";
+  } else if (numKanji >= 111 && k <= 120) {
+		msg = "About 1100-1200 kanji characters";
+  } else if (numKanji >= 121 && k <= 130) {
+		msg = "About 1200-1300 kanji characters";
+  } else if (numKanji >= 131 && k <= 140) {
+		msg = "About 1300-1400 kanji characters";
+  } else if (numKanji >= 141 && k <= 150) {
+		msg = "About 1400-1500 kanji characters";
+  } else if (numKanji >= 151 && k <= 160) {
+		msg = "About 1500-1600 kanji characters";
+  } else if (numKanji >= 161 && k <= 170) {
+		msg = "About 1600-1700 kanji characters";
+  } else if (numKanji >= 171 && k <= 180) {
+		msg = "About 1700-1800 kanji characters";
+  } else if (numKanji >= 181 && k <= 190) {
+		msg = "About 1800-1900 kanji characters";
+  } else if (numKanji >= 191 && k <= 200) {
+		msg = "About 1900-2000 kanji characters";
+	}
+	alert(msg);
+}

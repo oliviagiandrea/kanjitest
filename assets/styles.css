@@ -25,3 +25,7 @@ p {
   width: 9rem;
   display: none;
 }
+
+.btnRow {
+  margin-top: 1rem;
+}
